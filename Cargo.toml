@@ -1,7 +1,7 @@
 [package]
-name = "catdex"
+name = "book_index"
 version = "0.1.0"
-authors = ["Shing Lyu <shing.lyu@gmail.com>"]
+authors = ["Olayemi Michael <olayemimg@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
