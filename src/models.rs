@@ -1,4 +1,4 @@
-use super::schema::bookss;
+use super::schema::books;
 use actix_web::web;
 use serde::{Deserialize, Serialize};
 
@@ -10,9 +10,8 @@ pub struct Book {
 }
 
 #[derive(Debug, Insertable, AsChangeset, Serialize, Deserialize, Clone)]
-#[table_name = "bookss"]
+#[table_name = "books"]
 pub struct NewBook {
-    
     pub name: String,
     pub author: String,
 }

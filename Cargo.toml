@@ -2,21 +2,21 @@
 name = "book_index"
 version = "0.1.0"
 authors = ["Olayemi Michael <olayemimg@gmail.com>"]
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actix-web = { version = "3", features = ["openssl"] }
-actix-files = "0.3.0"
+actix-web = { version = "4.4.0", features = ["openssl"] }
+actix-files = "0.6.2"
 serde_json = "1.0.53"
-diesel = { version = "1.4.4", features = ["postgres", "r2d2"] }
+diesel = { version = "2.1.3", features = ["postgres", "r2d2"] }
 serde = { version = "1.0.110", features = ["derive"] }
 r2d2 = "0.8.8"
-validator = "0.10.0"
-validator_derive = "0.10.0"
+validator = "0.16.1"
+validator_derive = "0.16.0"
 derive_more = "0.99.8"
-env_logger = "0.7.1"
+env_logger = "0.10.0"
 log = "0.4.8"
 openssl = "0.10.30"
-actix-rt = "1.1.1"
+actix-rt = "2.9.0"
